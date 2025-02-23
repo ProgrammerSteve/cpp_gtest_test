@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
 TEST(SampleTest, TestCase1) {
-    EXPECT_EQ(1 + 1, 2);
+    EXPECT_EQ(1 + 1, 2)<<"1+1 should be 2";
 }
 
 int main(int argc, char **argv) {
